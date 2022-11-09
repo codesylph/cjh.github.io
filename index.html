@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>포트폴리오</title>
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+	<script src="js/jquery.scrollTo.min.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<div id="wrap">
+		<header>
+			<h1 class="logo"><a href="#">JH Choi's Portfolio</a></h1>
+			<nav>
+				<!-- 책갈피 기능: id선택자에서만 가능(class선택자에서는 안됨) -->
+				<ul>
+					<li><a href="#home" class="on">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#work">Work</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+			<div class="mAllMenu">
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+		</header>
+		<section id="home">
+			<h2 class="hidden">Home</h2>
+			<div class="content">
+			</div>			
+			<div class="scroll-downs">
+			  <div class="mousey">
+			    <div class="scroller"></div>  
+			  </div>
+			 <p>Scroll</p>
+			</div>
+		</section>	
+		<section id="about">
+			<h2><span>A</span>bout</h2>
+			<div class="content">
+				<div class="left">
+					
+				</div>
+				<div class="right">
+				
+				</div>
+			</div>
+		</section>	
+		<section id="skills">
+			<h2><span>S</span>kills</h2>
+			<div class="content">
+				<div class="left">
+				</div>
+				<div class="right">
+				
+				</div>
+			</div>
+		</section>	
+		<section id="work">
+			<h2><span>W</span>ork</h2>
+			<div class="content">
+				<div class="left">
+					<ul>
+						<li><a href="#">Hotel</a></li>
+					</ul>					
+				</div>
+				<div class="right">
+				
+				</div>
+			</div>
+		</section>	
+		<section id="contact">
+			<h2><span>C</span>ontact</h2>
+			<div class="content">
+				<div class="left">
+					
+				</div>
+				<div class="right">
+				
+				</div>
+			</div>
+		</section>
+		
+		<aside id="state"> 
+			<ul>
+				<li class="onState"><a href="#home"></a></li>
+				<li><a href="#about"></a></li>
+				<li><a href="#skills"></a></li>
+				<li><a href="#work"></a></li>
+				<li><a href="#contact"></a></li>
+			</ul>
+		</aside>
+		<div id="topBtn">
+			<a href="#wrap">Top</a>
+		</div>
+	</div>
+</body>
+</html>
